@@ -16,3 +16,8 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+input:invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
